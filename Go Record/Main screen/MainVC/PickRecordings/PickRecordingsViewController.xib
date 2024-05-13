@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Signika-Bold.ttf">
+            <string>Signika-Bold</string>
+        </array>
+        <array key="Signika-Regular.ttf">
+            <string>Signika-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickRecordingsViewController" customModule="Go_Record" customModuleProvider="target">
+            <connections>
+                <outlet property="backBtn" destination="Dqt-az-1xv" id="eSt-ql-k2t"/>
+                <outlet property="fileTableView" destination="Fax-RB-ucg" id="Cor-CU-VkA"/>
+                <outlet property="importBtn" destination="84K-ya-Bdr" id="iOd-c5-Tal"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5zK-NO-xpS">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3d-render-digital-technology-background-network-communications-sound-waves 1" translatesAutoresizingMaskIntoConstraints="NO" id="tGp-5h-Jr7">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aU4-FF-rU0">
+                            <rect key="frame" x="24" y="47" width="342" height="32"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqt-az-1xv">
+                                    <rect key="frame" x="5" y="0.0" width="32" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Dqt-az-1xv" secondAttribute="height" multiplier="1:1" id="Qpr-hp-WDd"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="BackBtn"/>
+                                    <connections>
+                                        <action selector="btnHandle:" destination="-1" eventType="touchUpInside" id="WJI-W1-ow3"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick Recordings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTl-iy-9GN">
+                                    <rect key="frame" x="50" y="1.3333333333333375" width="242" height="29.666666666666671"/>
+                                    <fontDescription key="fontDescription" name="Signika-Bold" family="Signika" pointSize="24"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="gTl-iy-9GN" firstAttribute="leading" secondItem="aU4-FF-rU0" secondAttribute="leading" constant="50" id="3jT-AX-VbF"/>
+                                <constraint firstItem="Dqt-az-1xv" firstAttribute="leading" secondItem="aU4-FF-rU0" secondAttribute="leading" constant="5" id="6Iu-ID-kvS"/>
+                                <constraint firstAttribute="bottom" secondItem="Dqt-az-1xv" secondAttribute="bottom" id="GDG-ja-JNZ"/>
+                                <constraint firstAttribute="height" constant="32" id="Rkb-Mg-1mQ"/>
+                                <constraint firstItem="gTl-iy-9GN" firstAttribute="centerY" secondItem="aU4-FF-rU0" secondAttribute="centerY" id="e6U-n0-QnW"/>
+                                <constraint firstAttribute="trailing" secondItem="gTl-iy-9GN" secondAttribute="trailing" constant="50" id="lHv-Xa-6b7"/>
+                                <constraint firstItem="Dqt-az-1xv" firstAttribute="top" secondItem="aU4-FF-rU0" secondAttribute="top" id="wlf-Td-4Ky"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recordings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7K-tN-qvl">
+                            <rect key="frame" x="24.000000000000007" y="113" width="96.666666666666686" height="24.666666666666657"/>
+                            <fontDescription key="fontDescription" name="Signika-Bold" family="Signika" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Fax-RB-ucg">
+                            <rect key="frame" x="24" y="161.66666666666669" width="342" height="523.33333333333326"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84K-ya-Bdr">
+                            <rect key="frame" x="145" y="709" width="100" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="96o-e2-M7E"/>
+                                <constraint firstAttribute="height" constant="35" id="jH1-Je-tcW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="18"/>
+                            <color key="tintColor" red="0.94901960780000005" green="0.043137254899999998" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Import"/>
+                            <connections>
+                                <action selector="btnHandle:" destination="-1" eventType="touchUpInside" id="WoE-qg-YC2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.035294117647058823" green="0.031372549019607843" blue="0.090196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="84K-ya-Bdr" secondAttribute="bottom" constant="100" id="56C-Yw-Ie9"/>
+                        <constraint firstItem="aU4-FF-rU0" firstAttribute="leading" secondItem="5zK-NO-xpS" secondAttribute="leading" constant="24" id="9Jk-WS-63L"/>
+                        <constraint firstItem="Fax-RB-ucg" firstAttribute="leading" secondItem="aU4-FF-rU0" secondAttribute="leading" id="Chl-qr-FgM"/>
+                        <constraint firstItem="84K-ya-Bdr" firstAttribute="top" secondItem="Fax-RB-ucg" secondAttribute="bottom" constant="24" id="Fqd-85-u65"/>
+                        <constraint firstItem="tGp-5h-Jr7" firstAttribute="top" secondItem="5zK-NO-xpS" secondAttribute="top" id="MtZ-3x-ZbY"/>
+                        <constraint firstItem="k7K-tN-qvl" firstAttribute="top" secondItem="aU4-FF-rU0" secondAttribute="bottom" constant="34" id="Pnh-9C-cDe"/>
+                        <constraint firstItem="tGp-5h-Jr7" firstAttribute="leading" secondItem="5zK-NO-xpS" secondAttribute="leading" id="Wp7-RY-gmN"/>
+                        <constraint firstItem="tGp-5h-Jr7" firstAttribute="height" secondItem="5zK-NO-xpS" secondAttribute="height" id="b4m-aI-giq"/>
+                        <constraint firstItem="k7K-tN-qvl" firstAttribute="leading" secondItem="aU4-FF-rU0" secondAttribute="leading" id="d84-gh-lwG"/>
+                        <constraint firstItem="tGp-5h-Jr7" firstAttribute="width" secondItem="5zK-NO-xpS" secondAttribute="width" id="ea7-oS-tZU"/>
+                        <constraint firstItem="84K-ya-Bdr" firstAttribute="centerX" secondItem="5zK-NO-xpS" secondAttribute="centerX" id="g4e-qn-G8i"/>
+                        <constraint firstItem="Fax-RB-ucg" firstAttribute="trailing" secondItem="aU4-FF-rU0" secondAttribute="trailing" id="mqH-1N-MAO"/>
+                        <constraint firstAttribute="trailing" secondItem="aU4-FF-rU0" secondAttribute="trailing" constant="24" id="oYl-nk-16w"/>
+                        <constraint firstItem="Fax-RB-ucg" firstAttribute="top" secondItem="k7K-tN-qvl" secondAttribute="bottom" constant="24" id="xKN-rU-wxz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="5zK-NO-xpS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9TZ-d3-xgr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5zK-NO-xpS" secondAttribute="trailing" id="FWP-tC-aAF"/>
+                <constraint firstItem="5zK-NO-xpS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="WRk-Bh-Y8k"/>
+                <constraint firstItem="aU4-FF-rU0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="huN-DE-Oyy"/>
+                <constraint firstAttribute="bottom" secondItem="5zK-NO-xpS" secondAttribute="bottom" id="x4y-1b-4Yb"/>
+            </constraints>
+            <point key="canvasLocation" x="45" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="3d-render-digital-technology-background-network-communications-sound-waves 1" width="375" height="786"/>
+        <image name="BackBtn" width="16" height="12"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

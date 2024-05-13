@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Signika-Bold.ttf">
+            <string>Signika-Bold</string>
+        </array>
+        <array key="Signika-Regular.ttf">
+            <string>Signika-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubViewOfMainVCViewController" customModule="Go_Record" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelBtn" destination="qNu-pO-SUe" id="kPT-ZX-7zp"/>
+                <outlet property="deviceLibararyBtn" destination="V8b-gc-Cwq" id="GhI-Hn-kDC"/>
+                <outlet property="goRecordBtn" destination="BLS-9h-rGb" id="6tf-3k-vwI"/>
+                <outlet property="hideSubviewBtn" destination="CWA-uS-kMF" id="xp7-3c-l9Q"/>
+                <outlet property="mainView" destination="FP7-JU-LNB" id="fFF-wE-Pi7"/>
+                <outlet property="menuSelectView" destination="sLV-yJ-HGI" id="0gJ-ih-ZPp"/>
+                <outlet property="newProjectView" destination="WC5-kk-RCm" id="Ca5-Ac-tMJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FP7-JU-LNB">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWA-uS-kMF">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <connections>
+                                <action selector="btnHandle:" destination="-1" eventType="touchUpInside" id="GlA-d9-HEJ"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WC5-kk-RCm">
+                            <rect key="frame" x="69" y="297" width="255" height="66"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Project" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zc-MK-ruq">
+                                    <rect key="frame" x="0.0" y="22" width="255" height="22.333333333333329"/>
+                                    <fontDescription key="fontDescription" name="Signika-Bold" family="Signika" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.043137254901960784" green="0.086274509803921567" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="2Zc-MK-ruq" firstAttribute="centerX" secondItem="WC5-kk-RCm" secondAttribute="centerX" id="DPH-cq-1zp"/>
+                                <constraint firstAttribute="height" constant="66" id="ZQ5-5K-NHM"/>
+                                <constraint firstAttribute="trailing" secondItem="2Zc-MK-ruq" secondAttribute="trailing" id="eB5-Tu-UDs"/>
+                                <constraint firstAttribute="width" constant="255" id="ewF-rO-apf"/>
+                                <constraint firstItem="2Zc-MK-ruq" firstAttribute="centerY" secondItem="WC5-kk-RCm" secondAttribute="centerY" id="kFK-T2-k5S"/>
+                                <constraint firstItem="2Zc-MK-ruq" firstAttribute="leading" secondItem="WC5-kk-RCm" secondAttribute="leading" id="ugP-sc-4XR"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sLV-yJ-HGI">
+                            <rect key="frame" x="69" y="385" width="255" height="174"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NRj-DE-aKB">
+                                    <rect key="frame" x="22" y="27" width="211" height="120"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLS-9h-rGb">
+                                            <rect key="frame" x="0.0" y="0.0" width="211" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="4Vn-F6-vTN"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="16"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Go Record">
+                                                <color key="titleColor" red="0.94901960784313721" green="0.043137254901960784" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="btnHandle:" destination="-1" eventType="touchUpInside" id="Nc9-rI-Ucs"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8b-gc-Cwq">
+                                            <rect key="frame" x="0.0" y="40" width="211" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="hXM-0F-CDR"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="16"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Device Library">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="btnHandle:" destination="-1" eventType="touchUpInside" id="pBH-nW-oYK"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNu-pO-SUe">
+                                            <rect key="frame" x="0.0" y="80" width="211" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="8nk-TY-ET5"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="16"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Cancel">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="btnHandle:" destination="-1" eventType="touchUpInside" id="gJ8-kX-zls"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="BLS-9h-rGb" firstAttribute="leading" secondItem="NRj-DE-aKB" secondAttribute="leading" id="K58-Yz-5US"/>
+                                        <constraint firstItem="BLS-9h-rGb" firstAttribute="top" secondItem="NRj-DE-aKB" secondAttribute="top" id="Nmq-em-1Yq"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.043137254901960784" green="0.086274509803921567" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="NRj-DE-aKB" firstAttribute="top" secondItem="sLV-yJ-HGI" secondAttribute="top" constant="27" id="2o1-KJ-gxt"/>
+                                <constraint firstAttribute="bottom" secondItem="NRj-DE-aKB" secondAttribute="bottom" constant="27" id="8HO-iL-7cr"/>
+                                <constraint firstItem="NRj-DE-aKB" firstAttribute="leading" secondItem="sLV-yJ-HGI" secondAttribute="leading" constant="22" id="TcN-52-ip0"/>
+                                <constraint firstAttribute="trailing" secondItem="NRj-DE-aKB" secondAttribute="trailing" constant="22" id="l48-NP-II3"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="CWA-uS-kMF" firstAttribute="leading" secondItem="FP7-JU-LNB" secondAttribute="leading" id="2QY-RN-6ob"/>
+                        <constraint firstItem="CWA-uS-kMF" firstAttribute="top" secondItem="FP7-JU-LNB" secondAttribute="top" id="CZP-67-ze9"/>
+                        <constraint firstItem="CWA-uS-kMF" firstAttribute="width" secondItem="FP7-JU-LNB" secondAttribute="width" id="KS0-Uo-PPn"/>
+                        <constraint firstItem="CWA-uS-kMF" firstAttribute="height" secondItem="FP7-JU-LNB" secondAttribute="height" id="MtK-wS-5Vn"/>
+                        <constraint firstItem="sLV-yJ-HGI" firstAttribute="top" secondItem="WC5-kk-RCm" secondAttribute="bottom" constant="22" id="Udo-lg-UlC"/>
+                        <constraint firstItem="sLV-yJ-HGI" firstAttribute="leading" secondItem="WC5-kk-RCm" secondAttribute="leading" id="k0m-gu-J4Z"/>
+                        <constraint firstItem="WC5-kk-RCm" firstAttribute="centerX" secondItem="FP7-JU-LNB" secondAttribute="centerX" id="xpF-nr-CeS"/>
+                        <constraint firstItem="sLV-yJ-HGI" firstAttribute="width" secondItem="WC5-kk-RCm" secondAttribute="width" id="zEK-vA-nxb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="WC5-kk-RCm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="238" id="Jkq-bz-K9N"/>
+                <constraint firstItem="FP7-JU-LNB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="NDm-bA-Rvs"/>
+                <constraint firstAttribute="bottom" secondItem="FP7-JU-LNB" secondAttribute="bottom" id="b8l-a6-XCa"/>
+                <constraint firstItem="FP7-JU-LNB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="urs-uj-Z2H"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FP7-JU-LNB" secondAttribute="trailing" id="z94-8i-ZVM"/>
+            </constraints>
+            <point key="canvasLocation" x="43.511450381679388" y="-11.267605633802818"/>
+        </view>
+    </objects>
+</document>

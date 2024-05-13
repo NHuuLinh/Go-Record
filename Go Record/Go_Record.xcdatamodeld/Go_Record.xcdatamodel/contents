@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22F82" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entity1" representedClassName="Entity1" syncable="YES" codeGenerationType="class"/>
+    <entity name="VideosList" representedClassName="VideosList" syncable="YES" codeGenerationType="class">
+        <attribute name="videoDate" optional="YES" attributeType="String"/>
+        <attribute name="videoDuration" optional="YES" attributeType="String"/>
+        <attribute name="videoName" optional="YES" attributeType="String"/>
+        <attribute name="videoUrl" optional="YES" attributeType="String"/>
+    </entity>
+</model>

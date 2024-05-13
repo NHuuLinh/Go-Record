@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Signika-Regular.ttf">
+            <string>Signika-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="-72" id="KGk-i7-Jjw" customClass="VideoListTableViewCell" customModule="Go_Record" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="462" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="462" height="53"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yGu-Lz-V3O">
+                        <rect key="frame" x="0.0" y="0.0" width="462" height="51"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJL-LZ-hgF">
+                                <rect key="frame" x="5" y="5" width="53.666666666666664" height="20"/>
+                                <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rV2-OQ-BXu">
+                                <rect key="frame" x="5" y="30" width="47" height="17.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="14"/>
+                                <color key="textColor" red="0.39215686274509803" green="0.45490196078431372" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvw-tm-WTX">
+                                <rect key="frame" x="408.33333333333331" y="27.333333333333329" width="53.666666666666686" height="20"/>
+                                <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="16"/>
+                                <color key="textColor" red="0.035294117647058823" green="1" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nvw-tm-WTX" firstAttribute="bottom" secondItem="rV2-OQ-BXu" secondAttribute="bottom" id="4DA-Wf-gu6"/>
+                            <constraint firstAttribute="trailing" secondItem="Nvw-tm-WTX" secondAttribute="trailing" id="69U-lU-3WX"/>
+                            <constraint firstAttribute="height" constant="51" id="Rgf-gB-syQ"/>
+                            <constraint firstItem="oJL-LZ-hgF" firstAttribute="leading" secondItem="yGu-Lz-V3O" secondAttribute="leading" constant="5" id="Se3-N1-36V"/>
+                            <constraint firstItem="rV2-OQ-BXu" firstAttribute="top" secondItem="oJL-LZ-hgF" secondAttribute="bottom" constant="5" id="fDf-WD-7G0"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oJL-LZ-hgF" secondAttribute="trailing" id="fw7-md-UdS"/>
+                            <constraint firstItem="oJL-LZ-hgF" firstAttribute="top" secondItem="yGu-Lz-V3O" secondAttribute="top" constant="5" id="qBV-Yq-67I"/>
+                            <constraint firstItem="rV2-OQ-BXu" firstAttribute="leading" secondItem="oJL-LZ-hgF" secondAttribute="leading" id="wpf-AF-JT6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="yGu-Lz-V3O" secondAttribute="trailing" id="3EB-CV-ffl"/>
+                    <constraint firstItem="yGu-Lz-V3O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Amk-q7-rVP"/>
+                    <constraint firstAttribute="bottom" secondItem="yGu-Lz-V3O" secondAttribute="bottom" id="NXs-ps-ggd"/>
+                    <constraint firstItem="yGu-Lz-V3O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="e1X-Bu-i8f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cellView" destination="yGu-Lz-V3O" id="RNA-Bf-eyI"/>
+                <outlet property="videoDate" destination="rV2-OQ-BXu" id="kdX-PQ-NDY"/>
+                <outlet property="videoDuration" destination="Nvw-tm-WTX" id="cqa-8X-WRP"/>
+                <outlet property="videoName" destination="oJL-LZ-hgF" id="wms-tc-3fM"/>
+            </connections>
+            <point key="canvasLocation" x="200" y="-8.0985915492957758"/>
+        </tableViewCell>
+    </objects>
+</document>

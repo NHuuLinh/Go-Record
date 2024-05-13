@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Go Record/Pods-Go Record-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CollectionViewPagingLayout/CollectionViewPagingLayout.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework

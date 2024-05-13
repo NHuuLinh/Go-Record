@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BC97E49D-7E33-4494-8CAF-79484CF6A97E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF66E6AC-9351-4BB5-B646-4FD97B551ACB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go Record/Main screen/MainVC/AudioCommentaryVC/VideoListCell/VideoListCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "play()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C624F717-7DC6-4511-AA5F-104A54C3BFAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go Record/Main screen/MainVC/AudioCommentaryVC/AudioCommentaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "btnHandle(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E886CEA4-E5BD-484E-A4EF-E0981C1C0A55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go Record/Main screen/MainVC/AudioCommentaryVC/AudioCommentaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "addBotomBorder(uiView:otherUIView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32A33E35-12E2-4467-B1BE-7926A2010F32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go Record/Main screen/MainVC/AudioCommentaryVC/SubView/AudioCommentarySubViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "btnHandle(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32A33E35-12E2-4467-B1BE-7926A2010F32 - 186911074654af08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_Record.AudioCommentarySubViewController.btnHandle(__C.UIButton) -&gt; ()"
+                  moduleName = "Go Record"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenlinh/Documents/Work/Go%20Record%20-%20App%20Live%20Stream/Go%20Record/Go%20Record/Go%20Record/Main%20screen/MainVC/AudioCommentaryVC/SubView/AudioCommentarySubViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1744">
+               </Location>
+               <Location
+                  uuid = "32A33E35-12E2-4467-B1BE-7926A2010F32 - 186911074654af08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_Record.AudioCommentarySubViewController.btnHandle(__C.UIButton) -&gt; ()"
+                  moduleName = "Go Record"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenlinh/Documents/Work/Go%20Record%20-%20App%20Live%20Stream/Go%20Record/Go%20Record/Go%20Record/Main%20screen/MainVC/AudioCommentaryVC/SubView/AudioCommentarySubViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1709">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3802522F-B10C-4D30-8AE8-9911438D0A91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go Record/Main screen/MainVC/AudioCommentaryVC/VideoListCell/VideoListCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3802522F-B10C-4D30-8AE8-9911438D0A91 - ec655e37f1fac352"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_Record.VideoListCollectionViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "Go Record"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenlinh/Documents/Work/Go%20Record%20-%20App%20Live%20Stream/Go%20Record/Go%20Record/Go%20Record/Main%20screen/MainVC/AudioCommentaryVC/VideoListCell/VideoListCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1006">
+               </Location>
+               <Location
+                  uuid = "3802522F-B10C-4D30-8AE8-9911438D0A91 - ec655e37f1fac352"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_Record.VideoListCollectionViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "Go Record"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenlinh/Documents/Work/Go%20Record%20-%20App%20Live%20Stream/Go%20Record/Go%20Record/Go%20Record/Main%20screen/MainVC/AudioCommentaryVC/VideoListCell/VideoListCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "891">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0456E26-4AA6-4342-9399-8216092F8B8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go Record/Main screen/MainVC/AudioCommentaryVC/SubView/ShareViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "ShareViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

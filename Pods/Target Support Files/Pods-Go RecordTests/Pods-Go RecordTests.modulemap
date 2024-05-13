@@ -1,0 +1,6 @@
+framework module Pods_Go_RecordTests {
+  umbrella header "Pods-Go RecordTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
